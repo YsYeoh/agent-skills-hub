@@ -62,4 +62,5 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 
 | Category | Skill | Source |
 |----------|-------|--------|
-| UI/UX & Frontend Design | [Impeccable](skills/ui-ux-design/impeccable/) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
+| UI/UX & Frontend Design | [Impeccable](https://github.com/pbakaus/impeccable) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
+| Motion & Animation / UI/UX | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 13 skills by Emil Kowalski (aiforui.dev): 6 Motion & Animation + 5 UI/UX & Frontend + 2 Coding/Language. Per-skill links in each category's LINKS.md. |
