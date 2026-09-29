@@ -35,26 +35,26 @@ clear categories so they're easy to find and reuse.
 
 ## Layout
 
-Each skill keeps its **original structure** (`SKILL.md` + any sibling files),
-organized under the right category folder:
+Skills are grouped under these category folders, each holding a `LINKS.md` index of the
+links collected there:
 
 ```
 skills/
-├── ui-ux-design/        # UI/UX & Frontend Design
-├── motion-animation/    # Motion & Animation
-├── video-motion/        # Video & Motion Video
-├── coding-language/     # Coding & Language Guidance
-├── coding-harness/      # Coding Harness & Agent Orchestration
-├── content-media/       # Content & Media Generation
-├── research-web/        # Research & Web
-└── general/             # General / Meta Skills
+├── ui-ux-design/        # UI/UX & Frontend Design   (LINKS.md)
+├── motion-animation/    # Motion & Animation          (LINKS.md)
+├── video-motion/        # Video & Motion Video        (LINKS.md)
+├── coding-language/     # Coding & Language Guidance  (LINKS.md)
+├── coding-harness/      # Coding Harness & Agent Orchestration (LINKS.md)
+├── content-media/       # Content & Media Generation  (LINKS.md)
+├── research-web/        # Research & Web              (LINKS.md)
+└── general/             # General / Meta Skills       (LINKS.md)
 ```
 
-## Adding a skill
+## How it works
 
-1. Paste the **GitHub repo URL** of the skill.
-2. It gets cloned into the correct category folder as `skills/<category>/<skill-name>/`.
-3. The skill's entry (`SKILL.md` name + source repo) is logged in the index below.
+This hub is an **index, not a copy**: each skill is recorded as a linked entry under its
+category, pointing back to the source repo. We don't clone repos in — links keep the hub
+small and always current with the original.
 
 ## Skill index
 
@@ -62,4 +62,4 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 
 | Category | Skill | Source |
 |----------|-------|--------|
-<!-- rows appended as skills are added -->
+| UI/UX & Frontend Design | [Impeccable](skills/ui-ux-design/impeccable/) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
