@@ -4,6 +4,14 @@ Skills in this category. Sources curated; each links to the skill's SKILL.md.
 
 | Skill | Source | Notes |
 |-------|--------|-------|
+| gsap-core | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-core/SKILL.md) | Official GSAP core API: gsap.to/from/fromTo, easing, stagger, matchMedia, reduced-motion. |
+| gsap-timeline | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-timeline/SKILL.md) | GSAP timelines: position param, nesting, playback — sequencing/choreographing keyframes. |
+| gsap-scrolltrigger | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-scrolltrigger/SKILL.md) | GSAP ScrollTrigger: scroll-linked anims, pinning, scrub, triggers, parallax. |
+| gsap-plugins | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-plugins/SKILL.md) | GSAP plugins: registration, ScrollTo/Smoother, Flip, Draggable, Inertia, SplitText, Scramble, SVG. |
+| gsap-react | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-react/SKILL.md) | GSAP in React/Next.js: useGSAP hook, refs, gsap.context(), cleanup. |
+| gsap-frameworks | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-frameworks/SKILL.md) | GSAP in Vue/Svelte & other frameworks: lifecycle, scoped selectors, unmount cleanup. |
+| gsap-performance | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-performance/SKILL.md) | GSAP performance: transforms over layout, avoid thrash, will-change, batching. |
+| gsap-utils | [greensock/gsap-skills](https://github.com/greensock/gsap-skills/blob/main/skills/gsap-utils/SKILL.md) | GSAP utils: clamp, mapRange, interpolate, random, snap, toArray, wrap, pipe. |
 | animate | [emilkowalski/skills](https://github.com/emilkowalski/skills) | Builds an animation from scratch — curve, duration, properties, interruption, exit. Writes implementation. |
 | animate-expo | [emilkowalski/skills](https://github.com/emilkowalski/skills) | Same for React Native/Expo: gestures, sheets, screen transitions, haptics (Reanimated, Gesture Handler). |
 | animation-vocabulary | [emilkowalski/skills](https://github.com/emilkowalski/skills) | Reverse-lookup glossary: vague description -> exact animation/motion term. |

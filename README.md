@@ -60,8 +60,30 @@ small and always current with the original.
 
 _Entries get added as skills are gathered. Format: `name` — one-line summary (source)._
 
+| Coding & Language Guidance | mattpocock/skills | [mattpocock/skills](https://github.com/mattpocock/skills) | | 
+| Coding & Language Guidance | superpowers | [obra/superpowers](https://github.com/obra/superpowers) | | 
+| Coding & Language Guidance | ponytail | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | | 
+| Coding & Language Guidance | autoresearch | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | | 
+| Coding & Language Guidance | karpathy-guidelines | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | | 
+| Coding & Language Guidance | gstack | [garrytan/gstack](https://github.com/garrytan/gstack) | | 
+| Motion & Animation | GSAP (8 skills) | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | | 
+| Video & Motion Video | hyperframes | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | | 
+| UI/UX & Frontend Design | ui-ux-pro-max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | | 
+| Content & Media Generation | archify | [tt-a1i/archify](https://github.com/tt-a1i/archify) | | 
+| General / Meta Skills | awesome-agent-skills | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
 | Category | Skill | Source |
 |----------|-------|--------|
 | UI/UX & Frontend Design | [Impeccable](https://github.com/pbakaus/impeccable) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
 | Motion & Animation / UI/UX | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 13 skills by Emil Kowalski (aiforui.dev): 6 Motion & Animation + 5 UI/UX & Frontend + 2 Coding/Language. Per-skill links in each category's LINKS.md. |
 | Video & Motion Video / Motion | [iart-ai/motion-skills](https://github.com/iart-ai/motion-skills) | Umbrella index of 16 packs / 53 motion-video skills (Remotion, Manim, GSAP/SVG, WebGL, canvas). Packs indexed under Video & Motion Video (6), Motion & Animation (9), General (1). |
+| UI/UX & Frontend Design | [mattpocock/skills](https://github.com/mattpocock/skills) | Real-engineer skills: code review, TDD, debugging, architecture, domain modeling, research. ~28 skills. |
+| Coding & Language Guidance | [superpowers](https://github.com/obra/superpowers) | Dev methodology for coding agents: TDD, debugging, planning, code review, subagents, git worktrees (14 skills). |
+| Coding & Language Guidance | [ponytail](https://github.com/dietrichgebert/ponytail) | The 'lazy senior dev' — minimal one-line fixes (6 skills). |
+| Coding & Language Guidance | [autoresearch](https://github.com/karpathy/autoresearch) | Autonomous overnight LLM experimentation agent. ML research project. |
+| Coding & Language Guidance | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Single CLAUDE.md fixing Karpathy's LLM coding pitfalls. |
+| Coding & Language Guidance | [garrytan/gstack](https://github.com/garrytan/gstack) | Ship like a team of 20: design/review/QA/ship for solo builders (~60 skills). Cross-cuts UI/UX + eng. |
+| Motion & Animation | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | Official GSAP skills: core, timeline, ScrollTrigger, plugins, React/Vue, performance, utils (8). |
+| Video & Motion Video | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML, render video (shorts, captions, talking-head, Remotion, Figma). ~20 skills. |
+| UI/UX & Frontend Design | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Great UI/UX skill + CLI: design, brand, design-system, ui-styling, slides. |
+| Content & Media Generation | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Turn any idea/plan into an interactive HTML visual (archify + archify-review). |
+| General / Meta Skills | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Curated index of 1497+ official agent skills across all categories. |
