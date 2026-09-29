@@ -64,3 +64,4 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 |----------|-------|--------|
 | UI/UX & Frontend Design | [Impeccable](https://github.com/pbakaus/impeccable) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
 | Motion & Animation / UI/UX | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 13 skills by Emil Kowalski (aiforui.dev): 6 Motion & Animation + 5 UI/UX & Frontend + 2 Coding/Language. Per-skill links in each category's LINKS.md. |
+| Video & Motion Video / Motion | [iart-ai/motion-skills](https://github.com/iart-ai/motion-skills) | Umbrella index of 16 packs / 53 motion-video skills (Remotion, Manim, GSAP/SVG, WebGL, canvas). Packs indexed under Video & Motion Video (6), Motion & Animation (9), General (1). |
