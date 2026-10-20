@@ -12,3 +12,11 @@ Skills in this category. Sources curated; each links to the skill's SKILL.md.
 | gstack | [garrytan/gstack](https://github.com/garrytan/gstack) | Solo-builder suite to 'ship like a team of 20': design + design-review, eng/devex/iOS review, QA, scrape, ship/deploy, diagram, retro (~60 skills). Cross-cuts UI/UX design + engineering. |
 | write-swift | [emilkowalski/skills](https://github.com/emilkowalski/skills) | Write modern Swift — value types, Swift 6 concurrency, generics, macros, performance, Swift Testing. |
 | pick-ui-library | [emilkowalski/skills](https://github.com/emilkowalski/skills) | Opinionated frontend library picker (charts, OTP, command menus, DnD, toasts, virtualization…). |
+| investigate-first | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/investigate-first/SKILL.md) | Diagnose ambiguous failures before editing: separate observed symptom from inferred cause, rank hypotheses by evidence, change nothing until one mechanism explains the evidence. |
+| lean-build | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/lean-build/SKILL.md) | Feature work with high overbuilding risk: strict scope, explicit stop condition. |
+| surgical-patch | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/surgical-patch/SKILL.md) | Fix bugs at the narrowest responsible layer, with regression proof. |
+| safe-refactor | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/safe-refactor/SKILL.md) | Restructure code while preserving observable behavior. |
+| migration | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/migration/SKILL.md) | Implement reversible, compatibility-safe transitions. |
+| verify-and-stop | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/verify-and-stop/SKILL.md) | Prove existing work meets acceptance conditions without expanding scope. |
+| caveman-review | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/caveman-review/SKILL.md) | Compressed code review: one line per finding — location, problem, fix. |
+| caveman-commit | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/caveman-commit/SKILL.md) | Conventional Commits message compressed to intent only. |

@@ -60,17 +60,6 @@ small and always current with the original.
 
 _Entries get added as skills are gathered. Format: `name` — one-line summary (source)._
 
-| Coding & Language Guidance | mattpocock/skills | [mattpocock/skills](https://github.com/mattpocock/skills) | | 
-| Coding & Language Guidance | superpowers | [obra/superpowers](https://github.com/obra/superpowers) | | 
-| Coding & Language Guidance | ponytail | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | | 
-| Coding & Language Guidance | autoresearch | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | | 
-| Coding & Language Guidance | karpathy-guidelines | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | | 
-| Coding & Language Guidance | gstack | [garrytan/gstack](https://github.com/garrytan/gstack) | | 
-| Motion & Animation | GSAP (8 skills) | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | | 
-| Video & Motion Video | hyperframes | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | | 
-| UI/UX & Frontend Design | ui-ux-pro-max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | | 
-| Content & Media Generation | archify | [tt-a1i/archify](https://github.com/tt-a1i/archify) | | 
-| General / Meta Skills | awesome-agent-skills | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
 | Category | Skill | Source |
 |----------|-------|--------|
 | UI/UX & Frontend Design | [Impeccable](https://github.com/pbakaus/impeccable) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) v4.4.0 |
@@ -88,3 +77,6 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 | Content & Media Generation | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Turn any idea/plan into an interactive HTML visual (archify + archify-review). |
 | General / Meta Skills | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Curated index of 1497+ official agent skills across all categories. |
 | Coding Harness & Agent Orchestration | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | Builds/audits harnesses that make AI coding agents reliable: AGENTS.md/CLAUDE.md, verification gates, scope boundaries, session handoff, memory, context budgets, tool-permission safety, multi-agent coordination. (1 skill) |
+| Video & Motion Video | [latent-spaces/brag](https://github.com/latent-spaces/brag) | "You built it. Now brag." Turns a just-built project (or a website URL) into a 15–25s shareable launch video with music, motion and share copy — `/brag` (Hyperframes workflow) and `/brag-slim` (single-file, model-built). (2 skills) |
+| General / Meta / Coding & Language / Coding Harness | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Terse 'caveman' voice + token-efficiency toolchain for coding agents: /caveman, /ultracave, /megacave output voices, memory/log compression, code-mode Blocks, token-cost analytics — plus lean work patterns (investigate-first, surgical-patch, verify-and-stop…). (22 skills) |
+| Video & Motion Video / Motion / Coding Harness | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Agentic video production studio: 12 production pipelines (93 stage-director skills), 100+ tools, 60+ providers, 91 Agent Skills covering video/image/TTS/motion/Three.js/GSAP/HyperFrames. AGPL-3.0. |
