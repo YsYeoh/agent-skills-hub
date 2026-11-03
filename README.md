@@ -33,6 +33,10 @@ clear categories so they're easy to find and reuse.
 8. **General / Meta Skills** (`skills/general/`)
    Skill creation, output enforcement, workflow automation, reusable tactics.
 
+9. **Tools (not skills)** (`tools/`)
+   Direct libraries, CLIs and frameworks an agent installs and drives: video, audio, media, dev tools —
+   tool calls, not SKILL.md procedures. Includes a write-up of how the video tools chain into one stack.
+
 ## Layout
 
 Skills are grouped under these category folders, each holding a `LINKS.md` index of the
@@ -48,6 +52,9 @@ skills/
 ├── content-media/       # Content & Media Generation  (LINKS.md)
 ├── research-web/        # Research & Web              (LINKS.md)
 └── general/             # General / Meta Skills       (LINKS.md)
+
+tools/
+└── LINKS.md             # Tools (not skills): direct libraries/CLIs + video stack write-up
 ```
 
 ## How it works
@@ -105,7 +112,16 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 | Video & Motion Video | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Launch films and feature demos with one continuous take — no cuts, continuity oracle scores every boundary, ~38 camera moves, deterministic 4K60. |
 | Motion & Animation | [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) | Animate hand-painted cartoons (Clawd, 31 emotions) in p5.js + p5.brush: storyboard → contact-sheet self-check → mp4, with ANIMATION_GUIDE.md. |
 | Video & Motion Video | [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) | ~5s voiceover line → editorial halftone paper-collage B-roll clip (9:16) via Gemini Omni Flash first/last-frame video; metaphor → still → video approval gates. |
-| Video & Motion Video | [zulko/moviepy](https://github.com/zulko/moviepy) | Python video editing library (v2.0): cuts, concatenation, text overlays, compositing / non-linear editing and custom effects across common formats. |
-| Video & Motion Video | [wyattblue/auto-editor](https://github.com/wyattblue/auto-editor) | Effort-free CLI editor: first-pass removal of silence and dead space by audio loudness or motion threshold, with margin padding. Ships an installable skill (`npx skills add WyattBlue/auto-editor`). |
-| Video & Motion Video | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Make videos programmatically with React — animated asset design systems, batch rendering on your own infra, agent-driven video creation; ships Agent Skills docs and templates. |
-| Video & Motion Video | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Automatic speech recognition at 70x realtime with word-level timestamps, wav2vec2 alignment, VAD and pyannote speaker diarization — the transcription layer for captions. |
+## Tools index
+
+_Direct tools an agent calls rather than skills it follows. Format: `name` — one-line summary (source)._
+
+| Category | Tool | Source |
+|----------|------|--------|
+| Tools (video stack) | [zulko/moviepy](https://github.com/zulko/moviepy) | Python video editing library (v2.0): cuts, concatenation, text overlays, compositing / non-linear editing and custom effects across common formats. |
+| Tools (video stack) | [wyattblue/auto-editor](https://github.com/wyattblue/auto-editor) | Effort-free CLI editor: first-pass removal of silence and dead space by audio loudness or motion threshold, with margin padding. Ships an installable skill (`npx skills add WyattBlue/auto-editor`). |
+| Tools (video stack) | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Make videos programmatically with React — animated asset design systems, batch rendering on your own infra, agent-driven video creation; ships Agent Skills docs and templates. |
+| Tools (video stack) | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Automatic speech recognition at 70x realtime with word-level timestamps, wav2vec2 alignment, VAD and pyannote speaker diarization — the transcription layer for captions. |
+
+See [`tools/LINKS.md`](tools/LINKS.md) for full notes plus how these four chain into one video
+pipeline: `auto-editor` → `whisperx` → `moviepy` → `remotion`.

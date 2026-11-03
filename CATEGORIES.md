@@ -25,3 +25,7 @@ How to decide where a skill belongs. When a skill fits two buckets, pick the one
 
 8. **General / Meta Skills** (`skills/general/`)
    Skill creation, output enforcement, workflow automation, reusable tactics.
+
+9. **Tools (not skills)** (`tools/`)
+   Direct libraries, CLIs and frameworks (video/audio/dev tools) an agent drives as tools rather than
+   follows as procedures.
