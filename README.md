@@ -7,6 +7,10 @@ A curated collection of agent coding skills, organized by category.
 Gather agent skills from around the web (GitHub repos, etc.) and group them into
 clear categories so they're easy to find and reuse.
 
+**Combining skills?** See [`STACKS.md`](STACKS.md) for five ready-made pipelines
+(coding, research→writing, video, agent harness, design) and the two rules for
+mixing skills without them fighting each other.
+
 ## Categories
 
 1. **UI/UX & Frontend Design** (`skills/ui-ux-design/`)
