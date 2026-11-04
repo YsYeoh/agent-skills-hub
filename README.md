@@ -37,9 +37,12 @@ mixing skills without them fighting each other.
 8. **General / Meta Skills** (`skills/general/`)
    Skill creation, output enforcement, workflow automation, reusable tactics.
 
-9. **Tools (not skills)** (`tools/`)
-   Direct libraries, CLIs and frameworks an agent installs and drives: video, audio, media, dev tools —
-   tool calls, not SKILL.md procedures. Includes a write-up of how the video tools chain into one stack.
+9. **Game Development** (`skills/game-development/`)
+   Game studio structure, design and production workflows, engine-specific agents, QA and release gates.
+
+10. **Tools (not skills)** (`tools/`)
+    Direct libraries, CLIs and frameworks an agent installs and drives: video, audio, media, dev tools —
+    tool calls, not SKILL.md procedures. Includes a write-up of how the video tools chain into one stack.
 
 ## Layout
 
@@ -55,6 +58,7 @@ skills/
 ├── coding-harness/      # Coding Harness & Agent Orchestration (LINKS.md)
 ├── content-media/       # Content & Media Generation  (LINKS.md)
 ├── research-web/        # Research & Web              (LINKS.md)
+├── game-development/    # Game Development            (LINKS.md)
 └── general/             # General / Meta Skills       (LINKS.md)
 
 tools/
@@ -117,6 +121,10 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 | Video & Motion Video | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Launch films and feature demos with one continuous take — no cuts, continuity oracle scores every boundary, ~38 camera moves, deterministic 4K60. |
 | Motion & Animation | [JohnHeibel/ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) | Animate hand-painted cartoons (Clawd, 31 emotions) in p5.js + p5.brush: storyboard → contact-sheet self-check → mp4, with ANIMATION_GUIDE.md. |
 | Video & Motion Video | [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) | ~5s voiceover line → editorial halftone paper-collage B-roll clip (9:16) via Gemini Omni Flash first/last-frame video; metaphor → still → video approval gates. |
+| Coding & Language Guidance | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | Google's design-then-review workflow: an "elephant" agent drafts the spec with full project context, fresh zero-context "goldfish" subagents review it cold to expose unstated assumptions. Skills: brainstorm, draft, resolve, bootstrap, review, review-loop, drift-report. Apache 2.0. |
+| UI/UX & Frontend Design | [stageshow](https://github.com/benjitaylor/skills/blob/main/stageshow/SKILL.md) | Build faux product UI that looks like the real thing: stills, feature cards, cursor demos and bento grids in React, with composition/motion guidance and tools that film the result so the agent can check its own work. |
+| General / Meta Skills | [hex-personal-commands](https://github.com/anomalyco/hex/blob/main/skills/hex-personal-commands/SKILL.md) | Configure Hex's personal deterministic transcript transformations in `~/.config/hex/hex.config.ts`, verified with `hex commands check`. |
+| Game Development | [claude-code-game-studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio: 49 agents in three tiers (directors → department leads → specialists), 74 workflow skills (`/design-system`, `/create-epics`, `/dev-story`, `/qa-plan`, `/release-checklist`, `/team-*`), 15 validation hooks, 14 path-scoped coding rules and 62 document templates. Engine sets for Godot 4, Unity and Unreal 5. |
 ## Tools index
 
 _Direct tools an agent calls rather than skills it follows. Format: `name` — one-line summary (source)._
@@ -127,6 +135,9 @@ _Direct tools an agent calls rather than skills it follows. Format: `name` — o
 | Tools (video stack) | [wyattblue/auto-editor](https://github.com/wyattblue/auto-editor) | Effort-free CLI editor: first-pass removal of silence and dead space by audio loudness or motion threshold, with margin padding. Ships an installable skill (`npx skills add WyattBlue/auto-editor`). |
 | Tools (video stack) | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Make videos programmatically with React — animated asset design systems, batch rendering on your own infra, agent-driven video creation; ships Agent Skills docs and templates. |
 | Tools (video stack) | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Automatic speech recognition at 70x realtime with word-level timestamps, wav2vec2 alignment, VAD and pyannote speaker diarization — the transcription layer for captions. |
+| Tools (input) | [anomalyco/hex](https://github.com/anomalyco/hex) | Local voice dictation for macOS, Windows and Linux: hold a key, speak, it pastes. Transcribes on device, nothing leaves the machine. Rust app with a TypeScript SDK and an MCP server for meetings. MIT. |
+| Tools (research) | [scrapling](https://github.com/D4Vinci/Scrapling) | The Python scraping framework behind the Scrapling agent skill: stealth browser, JavaScript rendering, Cloudflare handling, adaptive selectors, proxy rotation, concurrent spiders. Usable from Python, the CLI, or an agent over MCP. |
 
-See [`tools/LINKS.md`](tools/LINKS.md) for full notes plus how these four chain into one video
-pipeline: `auto-editor` → `whisperx` → `moviepy` → `remotion`.
+See [`tools/LINKS.md`](tools/LINKS.md) for full notes plus how these chain into pipelines: the video
+chain is `auto-editor` → `whisperx` → `moviepy` → `remotion`, with Scrapling as the research arm and
+Hex as the spoken-input layer.

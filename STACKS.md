@@ -21,6 +21,11 @@ Every skill linked here is indexed in [`README.md`](README.md) by its category.
 | Taste | [tasteskill](https://github.com/tasteskill/tasteskill) or [frontend-design](https://github.com/anthropics/claude-code) | Keeps the UI from coming out generic. |
 | Guardrails last | [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | Writes the verification gates and context budgets that keep the *next* session reliable. |
 
+For features that need real design decisions before code, put
+[elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) at the very front: the
+elephant drafts the spec with project context, goldfish reviewers read it cold, and you approve the
+trade-offs before implementation starts.
+
 Why it works: methodology first, taste in the middle, guardrails at the end. Starting with a
 checking skill is backwards — there is nothing yet to check.
 
@@ -64,6 +69,19 @@ This stack maps almost one-to-one onto the eight design layers of an agent (syst
 knowledge → tools → guardrails → router → observability → orchestration → run logs), which is
 why it makes a good worked example when explaining that architecture.
 
+## 4b. Game brief → playable build
+
+[claude-code-game-studios](https://github.com/Donchitos/Claude-Code-Game-Studios) is a whole stack
+on its own: directors guard the vision, department leads own their domain, and specialists do the
+work. Use it as the studio, not as one stage inside another.
+
+The internal order is the one it enforces: `/brainstorm` → `/map-systems` → `/design-system` →
+`/create-epics` → `/create-stories` → `/dev-story` → `/qa-plan` → `/regression-suite` →
+`/release-checklist`. Note the repo's own measurement: at standard rigor the build produced 30
+documents before the first line of game code and blind reviewers ranked it *last* against a
+minimal-rigor build, so the documents buy traceability, not a better game. Treat
+`modes.rigor: minimal` as the default and add documents only where the team needs the record.
+
 ## 5. Brand → landing page (design)
 
 1. [brand-design-skill](https://github.com/ziguishian/brand-design-skill) — identity and the style guide.
@@ -72,6 +90,13 @@ why it makes a good worked example when explaining that architecture.
 4. [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — the actual build.
 
 Direction before pixels, always in that order.
+
+[stageshow](https://github.com/benjitaylor/skills/blob/main/stageshow/SKILL.md) slots in at step 3
+when the design needs to be *shown* rather than described: it builds faux product UI in React and
+films the result so the agent can check its own composition and motion.
+
+For spoken input anywhere in a stack, [hex](https://github.com/anomalyco/hex) transcribes on device
+and pastes straight into the prompt, so nothing is uploaded.
 
 ---
 
