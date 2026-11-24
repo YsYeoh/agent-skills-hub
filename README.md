@@ -11,6 +11,9 @@ clear categories so they're easy to find and reuse.
 (coding, research→writing, video, agent harness, design) and the two rules for
 mixing skills without them fighting each other.
 
+**Need a less flat background?** See [`DESIGN-KEYWORDS.md`](DESIGN-KEYWORDS.md) for 22 background
+design keywords with AI-ready prompt fragments, grouping and pairing rules.
+
 ## Categories
 
 1. **UI/UX & Frontend Design** (`skills/ui-ux-design/`)

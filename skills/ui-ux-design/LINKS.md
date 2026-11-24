@@ -2,6 +2,9 @@
 
 Skills in this category. Sources curated; each links to the skill's SKILL.md.
 
+> Companion reference: [`DESIGN-KEYWORDS.md`](../../DESIGN-KEYWORDS.md) — 22 background design
+> keywords with prompt fragments to pair with the skills below.
+
 | Skill | Source | Notes |
 |-------|--------|-------|
 | ui-ux-pro-max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Great UI/UX skill + CLI for any project. Sub-skills: ui-ux-pro-max, design, brand, design-system, ui-styling, banner-design, slides. |
