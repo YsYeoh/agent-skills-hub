@@ -180,7 +180,7 @@ in the layout, not the image, or the model will invent lettering you cannot edit
 
 **22. ASCII and pixels**
 
-![Example render: aSCII and pixels](assets/backgrounds/22-ascii-and-pixels.webp)
+![Example render: ASCII and pixels](assets/backgrounds/22-ascii-and-pixels.webp)
 
 > Website hero background, ASCII art character field, dense monospace glyphs in pale green on near-black, pattern thinning into dark space across the top for a headline, crisp terminal aesthetic, 16:9, no readable words, no lettering.
 
