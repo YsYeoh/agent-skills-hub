@@ -33,3 +33,10 @@ How to decide where a skill belongs. When a skill fits two buckets, pick the one
 10. **Tools (not skills)** (`tools/`)
     Direct libraries, CLIs and frameworks (video/audio/dev tools) an agent drives as tools rather than
     follows as procedures.
+
+11. **Authored in this hub** (`authored/`)
+    Skills written and kept here in full as installable `SKILL.md` folders rather than links.
+    Starts with `website-starter`: a fill-in starting prompt for building a site with an agent and
+    a MUST-pass launch checklist.
+
+Authored skills live outside `skills/`, so the category folders stay links-only.

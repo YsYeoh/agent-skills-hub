@@ -7,12 +7,17 @@ A curated collection of agent coding skills, organized by category.
 Gather agent skills from around the web (GitHub repos, etc.) and group them into
 clear categories so they're easy to find and reuse.
 
-**Combining skills?** See [`STACKS.md`](STACKS.md) for five ready-made pipelines
-(coding, research→writing, video, agent harness, design) and the two rules for
+**Combining skills?** See [`STACKS.md`](STACKS.md) for six ready-made pipelines
+(coding, research→writing, video, agent harness, game, design) and the two rules for
 mixing skills without them fighting each other.
 
 **Need a less flat background?** See [`DESIGN-KEYWORDS.md`](DESIGN-KEYWORDS.md) for 22 background
-design keywords with AI-ready prompt fragments, grouping and pairing rules.
+design keywords, each with a ready-to-paste prompt fragment and a full sample prompt, plus
+grouping and pairing rules.
+
+**Building a whole site?** Start from [`authored/website-starter`](authored/website-starter/SKILL.md):
+a fill-in starting prompt for building a website with an agent, plus a MUST-pass launch checklist
+covering SEO, AEO, legal pages, accessibility, performance and security.
 
 ## Categories
 
@@ -47,6 +52,10 @@ design keywords with AI-ready prompt fragments, grouping and pairing rules.
     Direct libraries, CLIs and frameworks an agent installs and drives: video, audio, media, dev tools —
     tool calls, not SKILL.md procedures. Includes a write-up of how the video tools chain into one stack.
 
+11. **Authored in this hub** (`authored/`)
+    Skills written and kept here in full as installable `SKILL.md` folders, not links. Starts with
+    `website-starter`: a fill-in starting prompt for building a site with an agent, plus the MUST-pass launch checklist.
+
 ## Layout
 
 Skills are grouped under these category folders, each holding a `LINKS.md` index of the
@@ -66,6 +75,9 @@ skills/
 
 tools/
 └── LINKS.md             # Tools (not skills): direct libraries/CLIs + video stack write-up
+
+authored/
+└── website-starter/     # Authored in this hub: SKILL.md + checklist.md + legal-pages.md
 ```
 
 ## How it works
@@ -73,6 +85,8 @@ tools/
 This hub is an **index, not a copy**: each skill is recorded as a linked entry under its
 category, pointing back to the source repo. We don't clone repos in — links keep the hub
 small and always current with the original.
+
+The exception is `authored/`: skills written in this hub are kept there in full.
 
 ## Skill index
 
@@ -128,6 +142,8 @@ _Entries get added as skills are gathered. Format: `name` — one-line summary (
 | UI/UX & Frontend Design | [stageshow](https://github.com/benjitaylor/skills/blob/main/stageshow/SKILL.md) | Build faux product UI that looks like the real thing: stills, feature cards, cursor demos and bento grids in React, with composition/motion guidance and tools that film the result so the agent can check its own work. |
 | General / Meta Skills | [hex-personal-commands](https://github.com/anomalyco/hex/blob/main/skills/hex-personal-commands/SKILL.md) | Configure Hex's personal deterministic transcript transformations in `~/.config/hex/hex.config.ts`, verified with `hex commands check`. |
 | Game Development | [claude-code-game-studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio: 49 agents in three tiers (directors → department leads → specialists), 74 workflow skills (`/design-system`, `/create-epics`, `/dev-story`, `/qa-plan`, `/release-checklist`, `/team-*`), 15 validation hooks, 14 path-scoped coding rules and 62 document templates. Engine sets for Godot 4, Unity and Unreal 5. |
+| Authored in this hub | [website-starter](authored/website-starter/SKILL.md) | Written in this hub: a fill-in starting prompt for building a website with an agent, plus a MUST-pass launch checklist (SEO, AEO, legal pages, accessibility, performance, security) and legal-page outlines. (1 skill) |
+
 ## Tools index
 
 _Direct tools an agent calls rather than skills it follows. Format: `name` — one-line summary (source)._
