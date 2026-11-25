@@ -11,7 +11,7 @@ one-line reason.
 **Free tools the proofs rely on:** the browser's developer tools; [Lighthouse](https://developer.chrome.com/docs/lighthouse/)
 or [PageSpeed Insights](https://pagespeed.web.dev/); [axe DevTools](https://www.deque.com/axe/devtools/);
 the [Schema.org validator](https://validator.schema.org/) and [Rich Results Test](https://search.google.com/test/rich-results);
-`curl -I` for headers; `npm audit` or `pip-audit` for dependencies.
+`curl -I` for headers, and a GET with `Accept-Encoding` set to see compression; `npm audit` or `pip-audit` for dependencies.
 
 Section 5 is a checklist of what the legal pages must say. It is not legal advice.
 
@@ -121,7 +121,7 @@ The first three are Google's Core Web Vitals "good" thresholds, measured for mob
 | 6 | The hero image is not lazy-loaded and is given priority. Images below the fold are `loading="lazy"`. | ☐ View-source |
 | 7 | Fonts are WOFF2, subset to the languages used, with the main file preloaded and `font-display: swap` so text shows while they load. System fonts are the fallback. | ☐ Network tab |
 | 8 | Only the scripts the page uses are loaded. Analytics and other third-party scripts wait for consent or for idle time. | ☐ Network tab |
-| 9 | HTML, CSS and JavaScript are served compressed (Brotli or gzip). Static assets have long cache lifetimes and versioned filenames. | ☐ `curl -I`: `content-encoding`, `cache-control` |
+| 9 | HTML, CSS and JavaScript are served compressed (Brotli or gzip). Static assets have long cache lifetimes and versioned filenames. | ☐ A GET with `curl -s -o /dev/null -D - -H 'Accept-Encoding: br, gzip' <url>`: `content-encoding`, `cache-control`. A HEAD request (`curl -I`) often leaves `content-encoding` out |
 | 10 | The home page's first load on mobile is 1 MB or less. | ☐ Network tab total |
 
 ## 7. Security
