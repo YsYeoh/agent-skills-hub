@@ -12,8 +12,8 @@ clear categories so they're easy to find and reuse.
 mixing skills without them fighting each other.
 
 **Need a less flat background?** See [`DESIGN-KEYWORDS.md`](DESIGN-KEYWORDS.md) for 22 background
-design keywords, each with a ready-to-paste prompt fragment and a full sample prompt, plus
-grouping and pairing rules.
+design keywords, each with a ready-to-paste prompt fragment, a full sample prompt and a rendered
+example of the style, plus grouping and pairing rules.
 
 **Building a whole site?** Start from [`authored/website-starter`](authored/website-starter/SKILL.md):
 a fill-in starting prompt for building a website with an agent, plus a MUST-pass launch checklist

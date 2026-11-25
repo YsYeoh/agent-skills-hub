@@ -76,7 +76,8 @@ checklist.md and report every MUST item as PASS or FAIL with its proof.
 - Done means every MUST item in checklist.md passes, with its proof written next to it.
 ```
 
-The 22 background keywords and a full prompt for each are in this hub's `DESIGN-KEYWORDS.md`. Outside
+The 22 background keywords, a full prompt for each and a rendered example of each style are in this
+hub's `DESIGN-KEYWORDS.md`. Outside
 the hub, any style word the person names will do.
 
 If you are the agent receiving it:
